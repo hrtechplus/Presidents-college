@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="favicon" href="/img/logo.jpg" />
     <link rel="icon" type="image/x-icon" href="/img/logo.jpg" />
     <meta
@@ -115,12 +116,12 @@
   
 <div class="py-20 bg-gray-50">
     <div class="container mx-auto px-6 md:px-12 xl:px-32">
-        <div class="mb-16 text-center">
-            <h2 class="mb-4 text-center text-2xl text-gray-900 font-bold md:text-4xl">Administrative Structure  </h2>
+        <div class="mb-16 text-center academic">
+            <h2 class="mb-4 text-center text-2xl text-gray-900 font-bold md:text-4xl ">Administrative Structure  </h2>
             <p class="text-gray-600 lg:w-8/12 lg:mx-auto">The administrative structure is set as follows to ease the administration. The teachers responsible for the particular areas to fulfill their duties in producing qualitative and disciplined stream of students.</p>
         </div>
-        <div class="grid gap-12 items-center md:grid-cols-3">
-            <div class="space-y-4 text-center hover:-translate-y-2 transition duration-500 ">
+        <div class="grid gap-12 items-center md:grid-cols-3 academic">
+            <div class="space-y-4 text-center hover:-translate-y-2 transition duration-500 aca-list " data-aos="fade-up" data-aos-easing="ease-in-sine">
                 <img class="w-64 h-64 mx-auto object-cover rounded-full md:w-40 md:h-40 lg:w-64 lg:h-64 shadow-xl hover:shadow-2xl transition duration-300 cursor-pointer" 
                     src="/img/Staff/vice-pren.jpg" alt="Vice Principal" loading="lazy" width="640" height="805">
                 <div>
@@ -128,7 +129,7 @@
                     <span class="block text-sm text-gray-500">Vice Principal</span>
                 </div>
             </div>
-            <div class="space-y-4 text-center hover:-translate-y-2 transition duration-500  ">
+            <div class="space-y-4 text-center hover:-translate-y-2 transition duration-500 aca-list  " data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="300">
                 <img class="w-64 h-64 mx-auto object-cover rounded-full md:w-48 md:h-64 lg:w-80 lg:h-80 shadow-xl hover:shadow-2xl transition duration-300 cursor-pointer hover:scale-102  " 
                     src="img/Staff/principal-removebg-preview.jpg" alt="Principal" loading="lazy" width="1000" height="667">
                 <div>
@@ -136,7 +137,7 @@
                     <span class="block text-sm text-gray-500">Principal</span>
                 </div>
             </div>
-            <div class="space-y-4 text-center hover:-translate-y-2 transition duration-500">
+            <div class="space-y-4 text-center hover:-translate-y-2 transition duration-500 aca-list" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="600">
                 <img class="w-64 h-64 mx-auto object-cover rounded-full md:w-40 md:h-40 lg:w-64 lg:h-64 shadow-xl hover:shadow-2xl transition duration-300 cursor-pointer" 
                     src="img/Staff/vice-pre.jpg" alt="Vice Principal" loading="lazy" width="1000" height="667">
                 <div>
@@ -149,7 +150,17 @@
 </div>
                 <div>
                  <img src="./img/Staff/school Administrative Structure.svg" alt="Administrative Structure President’s College Minuwangoda" class=" mb-8">
-                </div>                     
+                </div>       
+      <script src="https://unpkg.com/scrollreveal"></script> 
+      <script>
+        ScrollReveal().reveal('.academic');
+         ScrollReveal().reveal('.aca-list', { interval: 200 });
+      </script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+      <!-- animation screen                          -->
 </body>
     
    
